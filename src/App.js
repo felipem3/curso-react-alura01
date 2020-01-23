@@ -53,7 +53,7 @@ class App extends Component {
         <div className="container mb-10">
           <Tabela autores = {this.state.autores} removeAutor = {this.removeAutor}></Tabela>
           <Form escutadorDeSubmit={this.escutadorDeSubmit}></Form>
-        </div>
+        </div>{/* */}
       </Fragment>
     );
   }
